@@ -1,0 +1,72 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+#container, .thecontainer {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+   
+       
+}
+
+h1, .frontend{
+    margin-top: -40px;
+    font-size: 3rem;
+}
+
+
+
+.container3{
+    display: flex;
+}
+
+.msgMe{
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bolder;
+    color: white;
+}
+
+.box-msg{
+    justify-self: center;
+    align-self: center;
+    margin-left: 30px;
+    color: white;
+    width: 500px;
+
+}
+
+.mypic{
+    background-image: url(/img/john.jpg);
+    background-size: contain;
+    border-bottom-left-radius: 9999px;
+    width: 183px;
+    height: 245px;
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -ms-filter: flip; 
+    filter: flip;
+    /* border: red solid 1px; */
+    box-shadow: 0 0 3px black;
+}
+
+
+.body{
+    background-image: linear-gradient(90deg,#50FFB1, #1D7874, #679289);
+    border-bottom-right-radius: 40%;
+    margin-top: -40px
+    
+}
+
+span{
+    background: -webkit-linear-gradient(360deg, #50FFB1, #1D7874, #679289);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+body{
+   margin: 0;
+   
+}
